@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #f59e0b;
+    --gold-bright: #fbbf24;
+    --gold-dark: #b45309;
+    --dark-bg: #0a0a0f;
+    --dark-surface: #12131a;
+    --dark-card: #181924;
+    --dark-border: #27293d;
+  }
+
+  body {
+    background-color: #08080c;
+    color: #e2e8f0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0e15;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2d42;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Gold glow and border accents */
+.gold-glow {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.12);
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(135deg, #f59e0b 0%, #78350f 50%, #f59e0b 100%) 1;
+}
+
+.bg-radial-mesh {
+  background-image: radial-gradient(circle at 50% -20%, rgba(245, 158, 11, 0.12), transparent 70%);
+}
+
+.esports-grid-bg {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}

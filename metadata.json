@@ -1,0 +1,6 @@
+{
+  "name": "ARENA HUB - Esports & Sports Platform",
+  "description": "Premium hub for esports and traditional sports: tournaments, official rules, training academies, tutorials, and AI sports assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
